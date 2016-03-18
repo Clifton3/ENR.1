@@ -7,8 +7,12 @@ void draw(){
   rectMode(CENTER);
   ellipseMode(CENTER);
   
-  translate(100,100);
-  noCursor();
+  //variable to map mouse-color
+  float c1 = map(mouseX, 0, width, 0, 255);
+ 
+  smooth();
+  ellipdeMode(CENTER);
+  rectMode(CENTER);
   
   //Zoog's Body
   stroke(0);
